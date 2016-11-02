@@ -36,7 +36,6 @@ describe Roman_numerals do
     expect(Roman_numerals.convert(35)).to eq ("XXXV")
   end
 
-
   it "should be able to convert 1997 into MCMXCVII" do
     expect(Roman_numerals.convert(1997)).to eq ("MCMXCVII")
   end
