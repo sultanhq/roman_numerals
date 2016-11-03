@@ -18,7 +18,7 @@ class Roman_numerals
   def self.convert(number)
     result = ""
     ROMAN_NUMERALS.each do |key,value|
-      (number / key).times {result << value; number = number - key}
+      (number / key).times {result << value ; number -= key}
     end
     result
   end
